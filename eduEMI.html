@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <title>Educationa Loan EMI Calculator</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="eduEMI.js"></script>
+</script>
+
+
+    <link href="eduEMI.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <h3 class="masthead-brand">Fincal</h3>
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link active">Home</a>
+
+          </nav>
+        </div>
+      </header>
+
+
+		<div id=outer align="justify-content-center"><p>Educational Loan EMI Calculator <br></p>
+			<div id=cover><form><table class=main>
+		
+				<tr><td>Loan Amount<td><input id=loan1>
+				<tr><td>Repayment in months<td><input id=months1>
+				<tr><td>Interest Rate<td><input id=rate1 onchange=emi();>
+				<tr><td><button type=reset>Reset</button><td><button type=button onclick='emi()'>Submit</button>
+				<tr><td>EMI<td><input id=pay1>
+				<tr><td>Interest payable<td><input id=tintt1>
+				<tr><td>Total payable<td><input id=gt1>
+				</table>
+			</form></div>
+		</div>
+
+
+      <footer class="mastfoot mt-auto">
+
+      </footer>
+    </div>
+
+
+
+  
+
+</body></html>

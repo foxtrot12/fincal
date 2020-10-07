@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <title>RD Calculator</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="rd.js"></script>
+
+
+
+    <link href="rd.css" rel="stylesheet">
+  </head>
+
+  <body >
+
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <h3 class="masthead-brand">Fincal</h3>
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link active">Home</a>
+
+          </nav>
+        </div>
+      </header>
+
+
+      <div align="justify-content-center" id=outer><p>Recurring Deposit Calculator <br></p>
+        <div id=cover>
+          <form><table class=main>
+
+            <tr><td>Monthly deposit<td><input id=principal>
+            <tr><td>Interest Rate<td><input id=rate>
+            <tr><td>Interest Compounding<td><select id=ci><option value=12>Monthly<option value=4 selected>Quarterly<option value=2>Half Yearly<option value=1>Yearly</select>
+            <tr><td>Period (months)<td><input id=time><tr><td><button type=reset>Reset</button>
+            <td><button type=button onclick=rdmaturity();>Submit</button>
+            <tr><td><b>Maturity Value</b><td><input id=mv>
+            </table>
+          </form>
+         </div>
+        </div>
+
+
+      <footer class="mastfoot mt-auto">
+
+      </footer>
+    </div>
+
+
+
+  
+
+</body></html>
